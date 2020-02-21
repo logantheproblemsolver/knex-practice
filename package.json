@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/practice.js",
+    "start": "node ./src/blogful.js",
     "test": "mocha --require test/setup.js",
-    "dev": "nodemon src/practice.js",
+    "dev": "nodemon ./src/blogful.js",
     "predeploy": "npm audit",
     "deploy": "git push heroku master",
-    "script": "node ./src/practice.js"
+    "script": "node ./src/blogful.js"
   },
   "keywords": [],
   "author": "",
